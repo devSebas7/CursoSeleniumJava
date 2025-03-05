@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-05T05:56:37Z" name="Default suite" finished-at="2025-03-05T05:57:19Z" duration-ms="42067">
+    <groups>
+    </groups>
+    <test started-at="2025-03-05T05:56:37Z" name="Default test" finished-at="2025-03-05T05:57:19Z" duration-ms="42067">
+      <class name="PracticeTests.TC_01_PracticeForm">
+        <test-method is-config="true" signature="StartPage()[pri:0, instance:PracticeTests.TC_01_PracticeForm@70e659aa]" started-at="2025-03-04T23:56:37Z" name="StartPage" finished-at="2025-03-04T23:57:17Z" duration-ms="39923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartPage -->
+        <test-method signature="PracticeTest_01()[pri:0, instance:PracticeTests.TC_01_PracticeForm@70e659aa]" started-at="2025-03-04T23:57:17Z" name="PracticeTest_01" finished-at="2025-03-04T23:57:19Z" duration-ms="1733" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <label title="" for="hobbies-checkbox-1" class="custom-control-label">...</label> is not clickable at point (635, 617). Other element would receive the click: <iframe frameborder="0" src="https://9b73135ed9d38b9797994fb6436c7659.safeframe.googlesyndication.com/safeframe/1-0-41/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="1005" height="124" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="7" style="border: 0px; vertical-align: bottom; max-height: 30vh !important; overflow: hidden !important; display: block; margin: 0px auto;" data-load-complete="true"></iframe>
+  (Session info: chrome=133.0.6943.142)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5862db98cefb1f5d744e5727d3fa70d, clickElement {id=f.3DF58AE96915E4D2DD8BB75406CEFE4A.d.9EE0710EB65F351A637E26984AF4E7BF.e.72}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\sebas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64401/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d5862db98cefb1f5d744e5727d3fa70d)] -> xpath: //label[starts-with(@for, 'hobbies-checkbox-')]]
+Session ID: d5862db98cefb1f5d744e5727d3fa70d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label title="" for="hobbies-checkbox-1" class="custom-control-label">...</label> is not clickable at point (635, 617). Other element would receive the click: <iframe frameborder="0" src="https://9b73135ed9d38b9797994fb6436c7659.safeframe.googlesyndication.com/safeframe/1-0-41/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="1005" height="124" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="7" style="border: 0px; vertical-align: bottom; max-height: 30vh !important; overflow: hidden !important; display: block; margin: 0px auto;" data-load-complete="true"></iframe>
+  (Session info: chrome=133.0.6943.142)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5862db98cefb1f5d744e5727d3fa70d, clickElement {id=f.3DF58AE96915E4D2DD8BB75406CEFE4A.d.9EE0710EB65F351A637E26984AF4E7BF.e.72}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\sebas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64401/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d5862db98cefb1f5d744e5727d3fa70d)] -> xpath: //label[starts-with(@for, 'hobbies-checkbox-')]]
+Session ID: d5862db98cefb1f5d744e5727d3fa70d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at commonMethods.WrapClass.click(WrapClass.java:14)
+	at navegationPage.PracticeFormPage.fillForm(PracticeFormPage.java:67)
+	at PracticeTests.TC_01_PracticeForm.PracticeTest_01(TC_01_PracticeForm.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeTest_01 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PracticeTests.TC_01_PracticeForm@70e659aa]" started-at="2025-03-04T23:57:19Z" name="closeDriver" finished-at="2025-03-04T23:57:19Z" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PracticeTests.TC_01_PracticeForm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
